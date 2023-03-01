@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.60">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/frontend-note/favicon.ico"><title>VuePress</title><meta name="description" content="学习笔记">
+    <link rel="preload" href="/frontend-note/assets/style-3ced8944.css" as="style"><link rel="stylesheet" href="/frontend-note/assets/style-3ced8944.css">
+    <link rel="modulepreload" href="/frontend-note/assets/app-d4680fdd.js"><link rel="modulepreload" href="/frontend-note/assets/framework-5866ffd3.js"><link rel="modulepreload" href="/frontend-note/assets/404.html-87d54bd8.js"><link rel="modulepreload" href="/frontend-note/assets/404.html-f9875e7b.js"><link rel="prefetch" href="/frontend-note/assets/index.html-f4715cf2.js" as="script"><link rel="prefetch" href="/frontend-note/assets/less.html-7512b5c6.js" as="script"><link rel="prefetch" href="/frontend-note/assets/markdown.html-a27b8d97.js" as="script"><link rel="prefetch" href="/frontend-note/assets/npm.html-d87aca1f.js" as="script"><link rel="prefetch" href="/frontend-note/assets/pnpm.html-8fa16dfe.js" as="script"><link rel="prefetch" href="/frontend-note/assets/scss.html-119bc1a2.js" as="script"><link rel="prefetch" href="/frontend-note/assets/vim.html-1ba5326f.js" as="script"><link rel="prefetch" href="/frontend-note/assets/yarn.html-11a11167.js" as="script"><link rel="prefetch" href="/frontend-note/assets/index.html-b809455c.js" as="script"><link rel="prefetch" href="/frontend-note/assets/less.html-2b89d2d4.js" as="script"><link rel="prefetch" href="/frontend-note/assets/markdown.html-b79e3fd8.js" as="script"><link rel="prefetch" href="/frontend-note/assets/npm.html-d8607ecc.js" as="script"><link rel="prefetch" href="/frontend-note/assets/pnpm.html-52081f2d.js" as="script"><link rel="prefetch" href="/frontend-note/assets/scss.html-19a79b28.js" as="script"><link rel="prefetch" href="/frontend-note/assets/vim.html-7d638558.js" as="script"><link rel="prefetch" href="/frontend-note/assets/yarn.html-ba534ea0.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>404 页面</blockquote><a href="/frontend-note/" class="">返回首页</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/frontend-note/assets/app-d4680fdd.js" defer></script>
+  </body>
+</html>
